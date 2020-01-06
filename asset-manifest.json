@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gomycar/static/css/main.d1b05096.chunk.css",
+    "main.js": "/gomycar/static/js/main.1bb0b4ce.chunk.js",
+    "main.js.map": "/gomycar/static/js/main.1bb0b4ce.chunk.js.map",
+    "runtime-main.js": "/gomycar/static/js/runtime-main.09268f3e.js",
+    "runtime-main.js.map": "/gomycar/static/js/runtime-main.09268f3e.js.map",
+    "static/js/2.74908ed5.chunk.js": "/gomycar/static/js/2.74908ed5.chunk.js",
+    "static/js/2.74908ed5.chunk.js.map": "/gomycar/static/js/2.74908ed5.chunk.js.map",
+    "index.html": "/gomycar/index.html",
+    "precache-manifest.c7876cfa326e048222430ddb7ca206fb.js": "/gomycar/precache-manifest.c7876cfa326e048222430ddb7ca206fb.js",
+    "service-worker.js": "/gomycar/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/gomycar/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.74908ed5.chunk.js.LICENSE": "/gomycar/static/js/2.74908ed5.chunk.js.LICENSE",
+    "static/media/logo.svg": "/gomycar/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09268f3e.js",
+    "static/js/2.74908ed5.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.1bb0b4ce.chunk.js"
+  ]
+}
