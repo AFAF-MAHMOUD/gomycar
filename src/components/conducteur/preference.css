@@ -1,0 +1,30 @@
+.preferences{
+    display: flex;
+    padding: 20px;
+    background-color:#f5f0e3;
+    color:#0f4c75 ;
+}
+
+.photo-pref{
+    width: 100px;
+    background-color: #f5f0e3;
+}
+.pref-item{
+    
+    margin: 10px;
+}
+
+h5{
+    color: gray;
+}
+.btn-enregister {
+
+    font-size: 15px;
+    padding: 15px 28px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    text-align: center;
+background-color: #ff6f5e;
+
+}
