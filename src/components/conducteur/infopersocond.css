@@ -1,0 +1,24 @@
+h5{
+    color: gray;
+}
+.form-passager{
+    font-size: 15px;
+}
+.form{
+    background-color:   #f5f0e3;
+    padding: 30px;
+}
+.form-passager p{
+    color:#0f4c75 ;
+}
+.btn-enregister {
+
+    font-size: 15px;
+    padding: 15px 28px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    text-align: center;
+background-color: #ff6f5e;
+
+}
