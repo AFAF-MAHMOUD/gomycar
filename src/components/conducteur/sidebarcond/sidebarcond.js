@@ -20,7 +20,7 @@ class SideBarCond extends Component {
             <div className="aside-bar">
                 <ul className="list">
                     <li className="list-title">Profil</li>
-                    <NavLink to="../passager/informationPerso.js"><li>Informations personnelles</li></NavLink>
+                    <Link to="/passager/informationPerso"><li>Informations personnelles</li></Link>
                     <a href="#"><li>Photo</li></a>
                     <a href="#"><li>Préférences</li></a>
                     <a href="#"><li>Véhicule</li></a>
@@ -35,7 +35,7 @@ class SideBarCond extends Component {
                     <a href="#"><li>Mot de passe </li></a>
                     <a href="#"><li>Fermeture de compte</li></a>
                 </ul>
-                <InfoPersoCond />
+                <Route exact path ="/passager/informationPerso" component={InfoPersoCond}/>
                 <PhotoCond />
                 <PreferenceCond />
 
