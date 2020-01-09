@@ -1,0 +1,72 @@
+
+.conteneur {
+
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  img {
+    width: 44%;
+    height: 60%;
+  }
+  button {
+    font-size: 15px;
+    padding: 14px 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    text-align: center;
+    
+    margin-top: 5px;
+    background-color: #FF6F5E;
+    height: 30%;
+    margin-top: 24%;
+  }
+  
+  
+  h2 {
+    color: #0f4c75;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 2.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.conducteur {
+    border: 2px solid gray;
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+    text-align: center;
+
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #0f4c75;
+}
+
+
+.presentationtrajet {
+    border: 2px solid gray;
+    width: 30%;
+    height: 30%;
+    margin-top: 10%;
+    text-align: center;
+}
+p{
+  color: gray;
+  font-size: 20px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
