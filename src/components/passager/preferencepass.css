@@ -6,15 +6,18 @@
 }
 
 .photo-pref{
-    width: 100px;
+    width: 50px;
     background-color: #f5f0e3;
 }
-.pref-item{
-    
+.icon{
+   font-size: 50px;
     margin: 10px;
 }
 
 h5{
+    
+        margin-top: 60px;
+  
     color: gray;
 }
 .btn-enregister {

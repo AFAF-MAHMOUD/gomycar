@@ -4,8 +4,8 @@ img.icon-profil {
     /* padding: 20px; */
 }
 .photo{
-    max-width: 200px;
-    padding: 30px;
+    width: 90%;
+    padding: 33px;
     text-align: center;
     border: gray 0.5px ;
     background-color: #f5f0e3;

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import "./sidebarcond.css";
+import "./sidebarpass.css";
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import SplitPane from 'react-split-pane';
-import InfoPersoCond from '../informationPersocond';
-import PhotoCond from "../photocond";
-import PreferenceCond from "../preferencescond";
+import InfoPersoPass from '../informationPersopass';
+import PhotoPass from "../photopass";
+import PreferencePass from "../preferencespass";
 
-class SideBarCond extends Component {
+class SideBarPass extends Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -17,14 +17,13 @@ class SideBarCond extends Component {
         return (
 
 
-            <div className="aside-bar">
-                <div className="side-barcond">
+            <div className="aside-barpassager">
+                <div className="aside">
                     <ul className="list">
                         <li className="list-title">Profil</li>
                         <Link to="/"><li>Informations personnelles</li></Link>
-                        <Link to="/passager/photocond"><li>Photo</li></Link>
-                        <Link to="/passager/preferencescond"><li>Préférences</li></Link>
-                        <Link to="/passager/"><li>Véhicule</li></Link>
+                        <Link to="/passager/photopass"><li>Photo</li></Link>
+                        <Link to="/passager/preferencespass"><li>Préférences</li></Link>
                     </ul>
                     <ul className="list">
                         <li className="list-title">Avis</li>
@@ -37,15 +36,16 @@ class SideBarCond extends Component {
                         <a href="#"><li>Fermeture de compte</li></a>
                     </ul>
                 </div>
-                <div className="side-link">
-                    <Route exact path="/" component={InfoPersoCond} />
-                    <Route exact path="/passager/photocond" component={PhotoCond} />
-                    <Route exact path="/passager/preferencescond" component={PreferenceCond} />
+                <div className="aside-link">
+                    <Route exact path="/" component={InfoPersoPass} />
+                    <Route exact path="/passager/photopass" component={PhotoPass} />
+                    <Route exact path="/passager/preferencespass" component={PreferencePass} />
                 </div>
-            </div >
+
+            </div>
 
         );
     }
 }
 
-export default SideBarCond;
+export default SideBarPass;

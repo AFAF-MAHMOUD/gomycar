@@ -1,16 +1,19 @@
 img.icon-profil {
     width: 60px;
-    
+   
     /* padding: 20px; */
 }
 .photo{
-    max-width: 200px;
-    padding: 30px;
-    text-align: center;
-    border: gray 0.5px ;
-    background-color: #f5f0e3;
-color: #0f4c75;
-}
+   
+       width: 100%;
+        padding: 30px;
+        text-align: center;
+        border: gray 0.5px;
+        background-color: #f5f0e3;
+        color: #0f4c75;
+    }
+ 
+
 .photo h5{
     color: #0f4c75;
 }
@@ -31,4 +34,7 @@ background-color: #ff6f5e;
 p.explication {
     color: gray;
     font-size: 10px;
+}
+h5{
+    margin-top: 60px;
 }
