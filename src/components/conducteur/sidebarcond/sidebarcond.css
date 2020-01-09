@@ -1,6 +1,17 @@
 .aside-bar {
+    display: flex;
+    width: 70%;
+    margin: auto;
     color:#0f4c75;
+    
+}
+.side-barcond{
+    margin-top: 80px;
     width: 30%;
+    padding: 10px;
+}
+.side-link{
+    width: 70%;
 }
 
 a {

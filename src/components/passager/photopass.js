@@ -1,7 +1,7 @@
 import React, { Component, Profiler } from 'react';
-import "./photo.css";
+import "./photopass.css";
 import { NavLink } from 'react-router-dom';
-class Photo extends Component {
+class PhotoPass extends Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -26,4 +26,4 @@ class Photo extends Component {
     }
 }
 
-export default Photo;
+export default PhotoPass;

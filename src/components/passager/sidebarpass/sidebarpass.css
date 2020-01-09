@@ -1,6 +1,19 @@
-.aside-bar {
+.aside-barpassager {
     color:#0f4c75;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+}
+.aside{
     width: 30%;
+    margin-top: 80px;
+       
+        padding: 10px;
+    }
+
+.aside-link{
+    width: 70%;
 }
 
 a {
@@ -28,4 +41,7 @@ li {
 }
 .list-title{
     background-color: #f5f0e3;
+}
+.form-passager {
+    margin-top: 70px;
 }
