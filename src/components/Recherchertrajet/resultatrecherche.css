@@ -1,0 +1,46 @@
+
+div.content {
+    width: 170px;
+    height: 290px;
+    border: 2px solid gray;
+  
+   
+      background-color: #F5F0E3;
+      float: left;
+      margin: 135px;
+      border-radius: 25px;
+  }
+  h1 {
+    
+      display: block;
+      font-size: 2em;
+      margin-block-start: 1.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 438px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      color:#0f4c75;
+  
+  }
+  p{
+    text-align: center;
+    color:gray;
+  }
+  
+  
+  button {
+      font-size: 14px;
+      padding: 14px 25px;
+      color: white;
+      cursor: pointer;
+      border-radius: 10px 10px;
+      text-align: center;
+      background-color: 40bfc1F5E;
+      margin-top: 5px;
+      background-color: #FF6F5E;;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+  }
