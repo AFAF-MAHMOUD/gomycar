@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import "./sidebarcond.css";
-import { render } from 'react-dom';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import SplitPane from 'react-split-pane';
+import { Route, Link } from 'react-router-dom';
 import InfoPersoCond from '../informationPersocond';
 import PhotoCond from "../photocond";
 import PreferenceCond from "../preferencescond";
@@ -21,10 +18,10 @@ class SideBarCond extends Component {
                 <div className="side-barcond">
                     <ul className="list">
                         <li className="list-title">Profil</li>
-                        <Link to="/"><li>Informations personnelles</li></Link>
-                        <Link to="/passager/photocond"><li>Photo</li></Link>
-                        <Link to="/passager/preferencescond"><li>Préférences</li></Link>
-                        <Link to="/passager/"><li>Véhicule</li></Link>
+                        <Link to="/conducteur/profil/infoperso"><li>Informations personnelles</li></Link>
+                        <Link to="/conducteur/profil/photocond"><li>Photo</li></Link>
+                        <Link to="/conducteur/profil/preferencescond"><li>Préférences</li></Link>
+                        <Link to="/conducteur/profil/vehicule"><li>Véhicule</li></Link>
                     </ul>
                     <ul className="list">
                         <li className="list-title">Avis</li>
@@ -38,9 +35,10 @@ class SideBarCond extends Component {
                     </ul>
                 </div>
                 <div className="side-link">
-                    <Route exact path="/" component={InfoPersoCond} />
-                    <Route exact path="/passager/photocond" component={PhotoCond} />
-                    <Route exact path="/passager/preferencescond" component={PreferenceCond} />
+                    <Route  exact path="/conducteur/profil/infoperso" component={InfoPersoCond} />
+                    <Route  exact path="/conducteur/profil/" component={InfoPersoCond} />
+                    <Route  path="/conducteur/profil/photocond" component={PhotoCond} />
+                    <Route  path="/conducteur/profil/preferencescond" component={PreferenceCond} />
                 </div>
             </div >
 

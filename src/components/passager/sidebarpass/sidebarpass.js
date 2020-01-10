@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import "./sidebarpass.css";
-import { render } from 'react-dom';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import SplitPane from 'react-split-pane';
 import InfoPersoPass from '../informationPersopass';
 import PhotoPass from "../photopass";
@@ -21,9 +19,9 @@ class SideBarPass extends Component {
                 <div className="aside">
                     <ul className="list">
                         <li className="list-title">Profil</li>
-                        <Link to="/"><li>Informations personnelles</li></Link>
-                        <Link to="/passager/photopass"><li>Photo</li></Link>
-                        <Link to="/passager/preferencespass"><li>Préférences</li></Link>
+                        <Link to="/passager/profil/infoperso"><li>Informations personnelles</li></Link>
+                        <Link to="/passager/profil/photopass"><li>Photo</li></Link>
+                        <Link to="/passager/profil/preferencespass"><li>Préférences</li></Link>
                     </ul>
                     <ul className="list">
                         <li className="list-title">Avis</li>
@@ -37,9 +35,10 @@ class SideBarPass extends Component {
                     </ul>
                 </div>
                 <div className="aside-link">
-                    <Route exact path="/" component={InfoPersoPass} />
-                    <Route exact path="/passager/photopass" component={PhotoPass} />
-                    <Route exact path="/passager/preferencespass" component={PreferencePass} />
+                    <Route  exact path="/passager/profil/" component={InfoPersoPass} />
+                    <Route  exact path="/passager/profil/infoperso" component={InfoPersoPass} />
+                    <Route  path="/passager/profil/photopass" component={PhotoPass} />
+                    <Route  path="/passager/profil/preferencespass" component={PreferencePass} />
                 </div>
 
             </div>

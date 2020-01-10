@@ -1,0 +1,48 @@
+.main-trajet-container {
+    display: flex;
+    width: 80%;
+    margin: 5% auto;
+}
+.map-container {
+    width: 30%;
+    height: 500px;
+    margin: auto;
+}
+.inputs-container {
+    width: 50%;
+}
+.input-autocomplete-div {
+    margin: 0 0 10px;
+}
+input.location-search-input {
+    width: 80% !important;
+    height: 50px;
+    padding: 0 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#0f4c75 !important
+}
+.autocomplete-dropdown-container {
+    margin: 10px;
+    font-size: 18px;
+    width: 80%;
+}
+.suggestion-item{
+    color:#0f4c75 !important;
+    padding:5px 0
+}
+.suggestion-item--active{
+    color:#FF6F5E !important
+}
+.btn-enregister {
+    margin-left: 200px;
+        font-size: 15px;
+        padding: 15px 28px;
+        color: white;
+        cursor: pointer;
+        border-radius: 10px 10px;
+        text-align: center;
+    background-color: #ff6f5e;
+    
+    }

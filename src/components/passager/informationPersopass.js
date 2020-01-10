@@ -6,7 +6,7 @@ class InfoPersoPass extends Component {
         this.state = {
             passagers: [
                 {
-                    id: 1, genre: "femme", prenom: "mahmoud", nom: "afef", email: "", numero: "", dateNaissance: ""
+                    id: 1, genre: "femme", nom: "mahmoud", prenom: "afef", email: "", numero: "", dateNaissance: ""
                 }
             ],
            
@@ -30,8 +30,8 @@ class InfoPersoPass extends Component {
                 <h5>Informations personnelles</h5>
                 <hr />
                 <form className="form" onSubmit={this.handleSubmit}>
-                    <p>Genre</p><input value={this.state.passagers.genre} placeholder="Genre" type="text" name="genre" onChange={this.handleChange} />   <br />
-                    <p>Prénom</p> <input placeholder=" Taper ton prénom" name="prenom" type="text" onChange={this.handleChange} />  <br />
+                    <p>Genre</p><input value={this.state.passagers[0].genre} placeholder="Genre" type="text" name="genre" onChange={this.handleChange} />   <br />
+                    <p>Prénom</p> <input value={this.state.passagers[0].prenom}placeholder=" Taper ton prénom" name="prenom" type="text" onChange={this.handleChange} />  <br />
                     <p>Nom</p> <input placeholder="Taper ton nom" name="nom" type="text" onChange={this.state.handleChange} /><br />
                     <p>E-mail</p><input placeholder="Taper ton E-mail" name="email" type="email" onChange={this.handleChange} /> <br />
                     <p>Numéro</p><input placeholder=" Taper ton numéro" type="number" name="num" onChange={this.handleChange} /><br />

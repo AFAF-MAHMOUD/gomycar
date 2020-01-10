@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
 import "./preferencecond.css";
 class PreferenceCond extends Component {
     constructor(props) {

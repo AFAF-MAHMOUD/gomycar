@@ -1,0 +1,32 @@
+.main-menu-container {
+    display: flex;
+    width: 80%;
+    padding:5px 10%;
+    background-color: #F5F0E3;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+}
+.active li{
+    color:inherit;   
+}
+.Logo-container {
+    width: 20% ;
+}
+.Logo-container img {
+    width: 100%;
+}
+.active{
+    color:#FF6F5E;
+}
+.active nav li{
+    color:inherit;   
+}
